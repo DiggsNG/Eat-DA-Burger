@@ -1,86 +1,53 @@
-body {
-  width: 75%;
- margin: 0 auto; 
- background-color: #FFC04C;
-
- display: flex;
- min-height: 100vh;
- flex-direction: column;
- background-color: white;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block; 
+   margin-left: auto; 
+  margin-right: auto; 
 }
 
-#YummyBurger {
-  display: block;
-   margin: auto;
+body{
+  font-family: 'Shadows Into Light';
+  background:  gray;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Roboto', Arial, Helvetica,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 65px;
-  margin: 50px;
+  font-weight:  bold;
 }
-
-.burgerAvailable {
-  font-family: 'Roboto', Arial, Helvetica,sans-serif;
-  font-weight: normal;
+.form-group{
+  text-align:  center;
+}
+#submit{
+  height:20px; 
+  width:100px; 
+  margin: -20px -50px; 
+  position:relative;
+  top:50%; 
+  left:50%;
+}
+#devoured {
   font-size: 20px;
-  text-align: center;
-
-  border-radius: 25px;
-  width: 100%;
-  margin: 10px;
-  padding: 10px;
-  background-color: #b7ffc2;
-  border: none;
+  float: right;
+  max-width: 50%;
+  margin: 0px 150px 0px 0px;
+  text-align: left;
+  background-color: turquoise;
+  padding: 5px;
+  border: 2px solid #000;
+}
+#notDevoured {
+  font-size:  20px;
+  float: left;
+  max-width: 50%;
+  text-align: left;
+  margin: 0px 100px;
+  background-color: teal;
+  padding: 5px;
+  border: 2px solid #000;
 }
 
-.burgerAvailable:hover {
-  background-color: #81ff94;
-}
 
-.burgerEaten {
-  font-family: 'Roboto', Arial, Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  text-align: center;
-
-  border-radius: 25px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #ffd1c9;
-}
-
-h2 {
-   text-align: center;
-  font-family: 'Roboto', Arial, Helvetica,sans-serif;
-  font-size: 40px;
-  margin: 50px;
-}
-
-.formContainer {
-  background-color: orange;
-}
-
-.addBurgerButton {
-  font-family: 'Roboto', Arial, Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  text-align: center;
-
-  border-radius: 25px;
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-  background-color: #FFC04C;
-  border: none;
-}
-
-.addBurgerButton:active {
- background-color: #FFC04C;
-}
-
-.burgerFooter {
- background-color: #FFC04C;
- padding: 20px 0;
-}
