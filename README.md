@@ -10,6 +10,5 @@ Burger appliation using Mysql, Node.js,Handlebars,Express. Using MVC design
 
 ## Support Images
 
--[!Eat-Da-Burger 1](https://github.com/DiggsNG/Eat-DA-Burger/commit/b51b073223988680a6d69f6884cd67a930d85daf)
-
--[Eat-Da-Burger 2](https://github.com/DiggsNG/Eat-DA-Burger/commit/b51b073223988680a6d69f6884cd67a930d85daf)
+-[!Eat-Da-Burger 1](https://github.com/DiggsNG/Eat-DA-Burger/blob/master/Eat_Da_Burger1.PNG)
+-[!Eat-Da-Burger 2](https://github.com/DiggsNG/Eat-DA-Burger/blob/master/Eat_Da_Burger2.PNG)
