@@ -5,5 +5,8 @@ Burger appliation using Mysql, Node.js,Handlebars,Express. Using MVC design
 
 ## Demonstration Steps
 - *When the applicaiton is activated click on the burger Add button.*
-- *once you enter your burger, you will be presented with a Devour button.*
+- *Once you enter your burger, you will be presented with a Devour button.*
 - *Click on the Devour button, your burger will then be moved to the right side of the display.*
+
+##Support Images
+-[!Eat-Da-Burger 1](
